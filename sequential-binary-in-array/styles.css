@@ -1,0 +1,31 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label
+{
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+}
+
+#content
+{
+    border: 1px dotted purple;
+    padding: 1em;
+}
+
+#pos
+{
+    width: 50px;
+}
+
+.alert {
+    color: red;
+    font-weight: 800;
+}
+
+.newArray {
+    font-weight: 800;
+}

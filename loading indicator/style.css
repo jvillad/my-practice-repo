@@ -1,0 +1,59 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.spin {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    animation: spin 4s linear infinite;
+}
+
+.loader-container {
+    max-width: 1200px;
+    height: 600px;
+}
+
+.load {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border: 10px solid #777;
+    border-top-color: #0a0a0a;
+    border-radius: 50%;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.spin.hidden {
+    opacity: 0;
+    display: none;
+}
+.load.hidden {
+    opacity: 0;
+    display: none;
+}
+
+button {
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+}
